@@ -1,0 +1,171 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.page-container12 {
+  height: 100vh;
+  background-position: center; 
+  background-image: url('./background-pattern.svg');
+  font-family: sans-serif;
+}
+
+.Center-Container {
+  position: relative;
+}
+
+.Absolute-Center {
+  width: 50%;
+  height: 70%;
+  
+  margin: auto;
+  position: absolute;
+  top: 0; left: 132px; bottom: 0; right: 0;
+}
+
+/* #Login .nav-tabs {
+  padding-left: 100px;
+} */
+
+#Login .nav-tabs > li, .nav-pills > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+   zoom:1; /* hasLayout ie7 trigger */
+}
+
+#Login .nav-tabs, .nav-pills {
+  text-align:center;
+}
+
+.signin{
+  float: left !important;
+}
+.signup{
+  float: right !important;
+
+}
+
+.tabTitle {
+  
+  font-family: myfont;
+  text-align: center;
+}
+
+#Login .nav-tabs > li > a {
+  margin-right: 2px;
+  font-size: 20px;
+  line-height: 2.428571;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  text-align: center;
+  color: lightblue;
+}
+
+#Login .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #05BBF7;
+  cursor: default;
+  background-color:transparent;
+  border-bottom-color: transparent;
+  font-weight: bold;
+}
+
+#Login {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 6px;
+  box-shadow: 0 3px 9px rgba(0,0,0,.5);
+  background-clip: padding-box;
+  outline: 0;
+  padding-bottom: 15px;
+  width:70%;
+}
+
+.tab-content {
+  padding-left : 50px;
+  padding-right: 50px
+}
+
+@font-face {
+  font-family: myfont;
+  src : url(Raleway-ExtraBoldItalic.ttf);
+}
+
+.nav > li.disabled > a {
+  color: blue !important;
+  font-size: 25px !important;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: myfont;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.modal-body {
+  position: relative;
+  padding: 28px !important;
+}
+
+.form-group {
+  margin: 7px !important;
+}
+
+@media screen and (max-width:975px) {
+  .Absolute-Center {
+    width: 85%;
+    height: 85%;
+    left: 0px;
+  }
+
+  #Login {
+    width :100%;
+  }
+
+  form {
+    padding-top: 12px;
+  }
+
+  #Login .nav-tabs > li > a {
+    width : auto;
+    font-size : 17px;
+  }
+
+  .nav-tabs {
+    padding-left: 25px;
+  }
+
+  #Login .nav-tabs {
+    padding-left: 25px;
+  }
+}

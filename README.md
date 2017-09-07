@@ -2,7 +2,7 @@ ZOLO Login
 
 A Login Page with form Validation
 
-This is my first react page i developed after leaning for 2 days.
+This is my first react page i developed after learning for 2 days.
 
 This is for Practice purpose. If you wana Check out this project.
 
